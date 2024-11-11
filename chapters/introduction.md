@@ -2,7 +2,9 @@
 title: Introduction
 layout: default
 nav_enabled: true
-nav_order: 2
+nav_order: 1
 ---
 
-# This is the introduction
+## Introduction
+
+A test book
