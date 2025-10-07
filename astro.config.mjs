@@ -4,8 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://omundy.github.io/game-dev-book',
-    // base: '/game-dev-book',
+    site: 'https://omundy.github.io',
+    base: '/game-dev-book',
     integrations: [
         starlight({
             title: 'Game Dev Book',
