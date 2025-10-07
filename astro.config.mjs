@@ -4,10 +4,15 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+    site: 'https://omundy.github.io/game-dev-book',
+    // base: '/game-dev-book',
     integrations: [
         starlight({
             title: 'Game Dev Book',
             social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/omundy/game-dev-book' }],
+            editLink: {
+                baseUrl: 'https://omundy.github.io/game-dev-book',
+            },
             sidebar: [
                 {
                     label: 'Home', link: './'
